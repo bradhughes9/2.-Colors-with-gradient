@@ -1,0 +1,129 @@
+body {
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.black_white {
+    color: white;
+    -webkit-text-stroke-color: black;
+ }
+ 
+ .white_black {
+    color: black;
+    -webkit-text-stroke-color: white;
+ }
+/* This will be used to change the color of the font */
+#hex-colors h1, h2{
+    font-size: 2rem;
+    -ms-animation: animation 5s infinite alternate;
+    -moz-animation: animation 5s infinite alternate;
+    -o-animation: animation 5s infinite alternate; 
+    animation: animation 5s infinite alternate; 
+  }
+
+  @-ms-keyframes animation{
+    0% {
+          color: #ffffff;
+        }
+        
+        20% {
+          color: #cccccc;
+        }
+        
+        40% {
+          color: #999999;
+        }
+        
+        60% {
+          color: #666666;
+        }
+        
+        80% {
+          color: #333333;
+        }
+        
+        100% {
+          color: #000000;
+        } 
+  }
+  
+  @-moz-keyframes animation{
+      0% {
+          color: #ffffff;
+        }
+        
+        20% {
+          color: #cccccc;
+        }
+        
+        40% {
+          color: #999999;
+        }
+        
+        60% {
+          color: #666666;
+        }
+        
+        80% {
+          color: #333333;
+        }
+        
+        100% {
+          color: #000000;
+        } 
+  }
+  
+  @-o-keyframes animation{
+      0% {
+          color: #ffffff;
+        }
+        
+        20% {
+          color: #cccccc;
+        }
+        
+        40% {
+          color: #999999;
+        }
+        
+        60% {
+          color: #666666;
+        }
+        
+        80% {
+          color: #333333;
+        }
+        
+        100% {
+          color: #000000;
+        }  
+  }
+  
+  @keyframes animation {
+      0% {
+          color: #ffffff;
+        }
+        
+        20% {
+          color: #cccccc;
+        }
+        
+        40% {
+          color: #999999;
+        }
+        
+        60% {
+          color: #666666;
+        }
+        
+        80% {
+          color: #333333;
+        }
+        
+        100% {
+          color: #ffffff;
+        }  
+  }
